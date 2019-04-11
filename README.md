@@ -7,6 +7,7 @@ maken met flex en grid.
 [Images](https://github.com/GiuseppeCagnazzo/Workshop/tree/master/gallery%20flex/img)
 
 ### Opdracht 2 - Grid Image Gallery v1
+[Images](https://github.com/GiuseppeCagnazzo/Workshop/tree/master/gallery%20grid%201/img)
 
 ### Opdracht 3 - Grid Image Gallery v2
 
