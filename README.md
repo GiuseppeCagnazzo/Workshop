@@ -1,17 +1,17 @@
-#Workshop HTML CSS Image Gallery
+# Workshop HTML CSS Image Gallery
 
 In deze workshop krijg je wat meer info over images in CSS / HTML. Met als einddoel een responsive image gallery 
 maken met flex en grid.
 
-###Opdracht 1 - Flex Image Gallery
+### Opdracht 1 - Flex Image Gallery
 
-###Opdracht 2 - Grid Image Gallery v1
+### Opdracht 2 - Grid Image Gallery v1
 
-###Opdracht 3 - Grid Image Gallery v2
+### Opdracht 3 - Grid Image Gallery v2
 
-###Opdracht 4 - Grid Image Gallery v3
+### Opdracht 4 - Grid Image Gallery v3
 
-###Opdracht 5 - Modal
+### Opdracht 5 - Modal
 
 Nuttige Links:
 
