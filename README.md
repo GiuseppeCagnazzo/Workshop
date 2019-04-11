@@ -4,6 +4,7 @@ In deze workshop krijg je wat meer info over images in CSS / HTML. Met als eindd
 maken met flex en grid.
 
 ### Opdracht 1 - Flex Image Gallery
+[Images](https://github.com/GiuseppeCagnazzo/Workshop/tree/master/gallery%20flex/img)
 
 ### Opdracht 2 - Grid Image Gallery v1
 
