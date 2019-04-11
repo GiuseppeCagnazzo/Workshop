@@ -15,8 +15,8 @@ maken met flex en grid.
 
 Nuttige Links:
 
-* [Grid ](https://css-tricks.com/snippets/css/complete-guide-grid/).
-* [Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/).
-* [Images](https://www.w3schools.com/css/css3_images.asp);
-* [Background Property](https://www.w3schools.com/cssref/css3_pr_background.asp);
-* [Background Image](https://www.w3schools.com/cssref/pr_background-image.asp);
+* [Grid ](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+* [Images](https://www.w3schools.com/css/css3_images.asp)
+* [Background Property](https://www.w3schools.com/cssref/css3_pr_background.asp)
+* [Background Image](https://www.w3schools.com/cssref/pr_background-image.asp)
