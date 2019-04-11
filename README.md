@@ -3,20 +3,25 @@
 In deze workshop krijg je wat meer info over images in CSS / HTML. Met als einddoel een responsive image gallery 
 maken met flex en grid.
 
+
 ### Opdracht 1 - Flex Image Gallery
 [Images](https://github.com/GiuseppeCagnazzo/Workshop/tree/master/gallery%20flex/img)
+
 
 ### Opdracht 2 - Grid Image Gallery v1
 [Images](https://github.com/GiuseppeCagnazzo/Workshop/tree/master/gallery%20grid%201/img)
 
+
 ### Opdracht 3 - Grid Image Gallery v2
+
 
 ### Opdracht 4 - Grid Image Gallery v3
 
+
 ### Opdracht 5 - Modal
 
-Nuttige Links:
 
+Nuttige Links:
 * [Grid ](https://css-tricks.com/snippets/css/complete-guide-grid/)
 * [Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 * [Images](https://www.w3schools.com/css/css3_images.asp)
