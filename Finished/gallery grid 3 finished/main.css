@@ -1,0 +1,49 @@
+body {
+    padding: 2rem;
+}
+
+.gallery-wrapper {
+    display: grid;
+    /* repeat(number of columns, width of columns) */
+    /* we dont need to specify the row dimensions want we gaat css dit automatisch late doen
+    de rijen zijn dus default op auto-size */
+    grid-template-columns: 1fr;
+    /* demonstrate rows */
+    /* grid-template-rows: 200px 300px 700px;  */
+
+    /* grid gap space between child elements */
+    /* grid-row-gap: 2rem;
+    grid-column-gap: 4rem; */
+    grid-gap: 2rem;
+   
+
+}
+
+.gallery-image img {
+    width: 100%;
+}
+
+
+/* media queries */
+
+
+@media  screen and (min-width: 600px) {
+    .gallery-wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+    }
+    
+}
+
+
+
+@media  screen and (min-width: 900px) {
+    .gallery-wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 2rem;
+    }
+    
+}
+

@@ -1,0 +1,113 @@
+/* remove padding and margin from the body */
+body {
+    margin:0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* banner styling */
+.banner {
+    padding: 130px 0;
+    background: url("./img/banner3.jpg");
+    /* The background-repeat property sets if/how a background image will be 
+    repeated.
+    Tip: The background image is placed according to the 
+    background-position property. If no background-position is specified,
+     the image is always placed at the element's top left corner. */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+    /* position h3 text to center with flex */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* banner overlay */
+/* The ::after selector inserts something after the content of each selected element(s).
+Use the content property to specify the content to insert. */
+.banner::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    /* use top and left 0 to cover over the image. */
+    top: 0;
+    left: 0;
+    /* bottom: 0;
+    right: 0; */
+}
+
+/* banner content */
+.banner h3 {
+    position: relative;
+    z-index: 9;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2em;
+}
+
+.gallery-outer {
+    padding: 70px 0px;
+}
+
+.container {
+    max-width: 1140px;
+    padding: 0 15px;
+    /* container centreren */
+    margin: 0 auto;  
+}
+
+.gallery {
+    display: flex;
+    /* It defines whether the flex items are forced in a single line 
+    or can be flowed into multiple lines. */
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+
+}
+
+.gallery-item {
+    /* The flex-basis property specifies the initial length of a
+     flexible item. can also be auto */
+    flex-basis: 25%; /* 4 times 25% */
+    padding: 5px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.gallery-item img {
+    padding: 5px;
+    /* border:1px solid #777; */
+    width: 100%;
+    /* The box-sizing property allows us to include the padding and border in an element's
+     total width and height. If you set box-sizing: border-box; on an element padding
+      and border are included in the width and height: Both divs are the same size now! */
+    box-sizing: border-box;
+}
+
+/* Media queries - Responsiveness */
+@media (max-width:767px) {
+    .gallery-item {
+        flex-basis: 33%;
+    }
+}
+
+@media (max-width:575px) {
+    .gallery-item {
+        flex-basis: 50%;
+    }
+}
+
+
+@media (max-width:376px) {
+    .gallery-item {
+        flex-basis: 100%;
+    }
+}

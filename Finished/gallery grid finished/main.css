@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f2f2f2;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.location-listing {
+    position: relative; 
+    /* parent element moet relatief zijn */
+}
+
+.location-title {
+    /* zorg dat parent element relative is  */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(90,0,10,0.4);
+
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* hide the title by default */
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.location-listing .location-title:hover {
+    opacity: 1;
+}
+
+.location-image {
+    line-height: 0;
+}
